@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white !important;
+}
+body{
+    margin-top: 30vh;
+    animation: change 5s infinite;
+    transition: 1s linear all;
+}
+div{
+    display:flex;
+    width:100%;
+    height: 33%;
+    justify-content: space-evenly;
+}
+section{
+    width:33%;
+    height:200px;
+    margin:auto;
+    border: 1px solid black;
+}
+button{
+    width:33%;
+    height:100%;
+    border:1px solid black !important;
+    transition: 1s linear all;
+}
+#reset{
+    margin-top: 10px;
+}
+@keyframes change {
+0%{background-color:red;}
+14%{background-color: orange;}
+28%{background-color: rgb(0, 255, 115);}
+42%{background-color: cyan;} 
+57%{background-color: blue;}
+71%{background-color: indigo;}
+89%{background-color: rgb(216, 130, 18);} 
+100%{background-color: #f70a9c ;}
+
+}
